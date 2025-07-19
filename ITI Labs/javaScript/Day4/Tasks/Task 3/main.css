@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #fff;
+    margin: 0;
+    padding: 40px;
+}
+
+.btn {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.success-btn {
+    background-color: green;
+}
+
+.error-btn {
+    background-color: red;
+}
+
+.alert-box {
+    display: none;
+    margin: 30px auto;
+    padding: 20px;
+    width: 50%;
+    background-color: #eee;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.alert-box.success {
+    color: green;
+}
+
+.alert-box.error {
+    color: red;
+}
+
+.title {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+
+.icon img {
+    width: 100px;
+    height: 100px;
+}

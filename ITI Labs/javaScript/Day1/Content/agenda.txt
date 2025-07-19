@@ -1,0 +1,17 @@
+- History of JS
+- where should we write JS
+- variables
+- Data Types
+- Arthemetic Operators
+- Comparisons
+- Logical Operators
+- Short Circuits
+- Conditions
+- Loops
+- How to take input from user
+- how to write in html page
+- (alert, confirm)
+
+
+Paint:
+https://wbd.ms/share/v2/aHR0cHM6Ly93aGl0ZWJvYXJkLm1pY3Jvc29mdC5jb20vYXBpL3YxLjAvd2hpdGVib2FyZHMvcmVkZWVtLzk1OWM1NzI4ZjA3NzQyMDI4MWEyN2QzZDZhYmE5OWZlX0JCQTcxNzYyLTEyRTAtNDJFMS1CMzI0LTVCMTMxRjQyNEUzRF83NGVkY2Q0My0zYzdhLTQyNDEtYmIyMy1mNzdhYmQzYWQ2ZDY=

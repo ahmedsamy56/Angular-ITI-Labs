@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>task 1</title>
+<link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+  <div class="form-container">
+    <div class="input-group">
+        <input type="text" id="name" placeholder="Name" />
+        <span id="nameError" class="error"></span>
+    </div>
+
+    <div class="input-group">
+        <input type="text" id="studentId" placeholder="ID" />
+        <span id="idError" class="error"></span>
+    </div>
+
+    <div class="input-group">
+        <input type="number" id="age" placeholder="Age" />
+        <span id="ageError" class="error"></span>
+    </div>
+    <button onclick="addStudent()">Add Student</button>
+  </div>
+
+  <table id="studentTable">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>ID</th>
+        <th>Age</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody>
+    </tbody>
+  </table>
+
+
+  
+  <script src='main.js'></script>
+</body>
+</html>

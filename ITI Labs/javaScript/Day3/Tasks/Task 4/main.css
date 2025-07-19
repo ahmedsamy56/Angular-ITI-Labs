@@ -1,0 +1,49 @@
+ body {
+  background: white;
+  text-align: center;
+  padding: 50px;
+}
+
+label {
+  display: block;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.input-tag {
+  display: inline-block;
+  margin: 20px;
+}
+
+input {
+  width: 180px;
+  height: 40px;
+  border-radius: 20px;
+  padding: 10px;
+  border: 2px solid #333;
+  background-color: #ffffff;
+  color: rgb(15, 15, 15);
+  font-size: 20px;
+}
+
+button {
+  background-color: #188845;
+  color: white;
+  border: 2px solid green;
+  padding: 10px 25px;
+  font-size: 16px;
+  border-radius: 12px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.output {
+  margin-top: 40px;
+  border: 3px solid #21380c;
+  padding: 25px;
+  font-size: 18px;
+  font-family: monospace;
+  color: red;
+  display: inline-block;
+  border-radius: 12px;
+}
