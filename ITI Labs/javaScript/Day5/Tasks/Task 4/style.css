@@ -1,0 +1,74 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 40px;
+}
+
+input, select {
+  width: 200px;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+.gender-options {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.gender-options img {
+  width: 100px;
+  height: 100px;
+  display: block;
+}
+
+.gender-img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 2px solid #007bff;
+  margin: 0 8px 0 0;
+  object-fit: cover;
+  background: #fff;
+}
+
+.profile-container {
+  max-width: 400px;
+  margin: 40px auto;
+  background: #f9f9f9;
+  padding: 30px 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+}
+
+form {
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  max-width: 350px;
+  margin: 0 auto 30px auto;
+}
+
+button {
+  background: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+h1 {
+  color: #007bff;
+  text-align: center;
+}
+
+p {
+  font-size: 18px;
+  margin: 10px 0;
+}

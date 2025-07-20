@@ -1,0 +1,49 @@
+body {
+  background-color: #7ba4a4;
+  text-align: center;
+  padding-top: 40px;
+}
+
+input {
+  width: 300px;
+  height: 40px;
+  font-size: 18px;
+  border-radius: 8px;
+  border: 2px solid black;
+}
+
+button {
+  margin-top: 15px;
+  padding: 10px 25px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.circle-container {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 40px;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 3px solid black;
+  background-color: gray;
+  cursor: pointer;
+}
+
+.red {
+  background-color: red;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.green {
+  background-color: green;
+}
