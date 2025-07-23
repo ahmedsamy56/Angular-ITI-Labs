@@ -1,10 +1,54 @@
+let a = 5;
+let b = 10;
+[c, d] = [b, a];
+console.log('swap:', c, d); 
+
+//----------------------------------------------------------------//
+
+
+
+function getMinMax(...numbers) {
+    return {
+        minNum: Math.min(...numbers),
+        maxNum: Math.max(...numbers)
+    };
+}
+
+let arra = [72, 20, 15, 4, 9 , 88];
+let res = getMinMax(...arra);
+console.log('Min value:', res.minNum);
+console.log('Max value:', res.maxNum);
+
+
+//----------------------------------------------------------------//
+
+var fruits = ["apple", "strawberry", "banana", "orange", "mango"];
+
+let strTest = fruits.every(fruit => typeof fruit === 'string');
+console.log('string Test :', strTest);
+
+let StartA = fruits.some(fruit => fruit.startsWith('a'));
+console.log('start with "a":', StartA);
+
+let StartWithSOrB = fruits.filter(fruit => fruit.startsWith('b') || fruit.startsWith('s'));
+console.log('start with b or s:', StartWithSOrB);
+
+let NewArray = fruits.map(fruit => `I like ${fruit}`);
+for (let i = 0; i < NewArray.length; i++) {
+    console.log(NewArray[i]);
+
+    
+}
+
+
+//----------------------------------------------------------------//
 
 
 function filterNums(arr) {
     return arr.filter(num => num > 0);
 }
 
-let nums = [3, -1, 0, 7, -5, 8];
+let nums = [3, -1, -10, 7, -5, 8];
 const positives = filterNums(nums);
 console.log('Positive numbers:', positives);
 
