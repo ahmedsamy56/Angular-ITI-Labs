@@ -1,0 +1,144 @@
+body {
+    font-family: 'Montserrat', Arial, sans-serif;
+    margin: 0;
+    background: #fff;
+    color: #222;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+    padding: 0.5rem 0;
+    top: 0;
+    z-index: 100;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: #1976d2;
+    display: flex;
+    align-items: center;
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #222;
+    font-weight: 500;
+    transition: color 0.2s;
+}
+
+
+
+
+.btn {
+    background: #1976d2;
+    color: #fff;
+    padding: 0.7em 2em;
+    border: none;
+    border-radius: 2em;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    display: inline-block;
+}
+
+
+.services {
+    background: #f4f8fc;
+    padding: 3em 0;
+    text-align: center;
+}
+
+.services h2 {
+    color: #1976d2;
+    font-size: 1.5rem;
+    margin-bottom: 2em;
+}
+
+.services-list {
+    display: flex;
+    gap: 2em;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.service-card {
+    background: #fff;
+    border-radius: 1em;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+    padding: 2em 1.5em;
+    width: 220px;
+    margin-bottom: 1em;
+}
+
+.service-card h3 {
+    color: #1976d2;
+    margin-bottom: 0.5em;
+    font-size: 1.1rem;
+}
+
+.contact {
+    padding: 3em 0;
+    text-align: center;
+}
+
+.contact h2 {
+    color: #1976d2;
+    font-size: 1.5rem;
+    margin-bottom: 1.5em;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+form label {
+    text-align: left;
+    font-size: 0.95em;
+    margin-bottom: 0.2em;
+}
+
+form input, form textarea {
+    padding: 0.7em;
+    border: 1px solid #ccc;
+    border-radius: 0.5em;
+    font-size: 1em;
+    font-family: inherit;
+    resize: none;
+}
+
+form button {
+    align-self: flex-end;
+}
+
+footer {
+    background: #222;
+    color: #fff;
+    padding: 1.5em 0 1em 0;
+    text-align: center;
+}
+
