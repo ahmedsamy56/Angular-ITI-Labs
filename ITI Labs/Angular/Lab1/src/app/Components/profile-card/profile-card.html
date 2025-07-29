@@ -1,0 +1,9 @@
+@if (!IsDisabled) {
+    <div  class="card">
+        <img [src]='img'  alt="Profile photo" class="profile-photo">
+        <h2>{{ name | uppercase }}</h2>
+        <p class="title">{{jop}}</p>
+        <p class="bio">{{bio}}</p>
+        <button (click)="MyAction()" class="remove">Remove</button>
+    </div>
+}
