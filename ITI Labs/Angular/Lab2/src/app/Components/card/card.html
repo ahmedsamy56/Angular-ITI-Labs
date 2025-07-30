@@ -1,0 +1,7 @@
+<div  class="card" [class.last-card]="LastElement">
+    <img [src]='user.ImgUrl'  alt="Profile photo" class="profile-photo">
+    <h2>{{ user.Name| uppercase }}</h2>
+    <p class="title">{{user.JobTitle}}</p>
+    <p class="bio">{{user.Bio}}</p>
+    <button (click)="RemoveUser()"  class="remove">Remove</button>
+</div>

@@ -1,0 +1,12 @@
+<app-search (searchEvent)="SearchUser($event)"></app-search>
+<div style="display: flex; flex-wrap: wrap; gap: 20px;">
+  
+  @for (user of users; track user.id ;let i = $index; let len = $count) {
+    <app-card
+      [user]="user"
+      [LastElement]="i === len - 1"
+      (removeUserEvent)="RemoveUser($event)"
+      >
+    </app-card>
+  }
+</div>
