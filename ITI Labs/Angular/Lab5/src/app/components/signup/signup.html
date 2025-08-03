@@ -1,0 +1,46 @@
+<div class="signup-container">
+  <h2>Sign Up</h2>
+  <form [formGroup]="myForm" (ngSubmit)="submit()">
+    
+    <div class="form-group">
+      <label for="email">Email</label>
+      <input type="email" id="email" formControlName="email" [class.invalid]="email.invalid && email.touched">
+      @if (email.touched && email.errors?.['required']) {
+        <span>Email is required</span>
+      }
+      @if (email.touched && email.errors?.['email']) {
+        <span>Email is invalid</span>
+      }
+    </div>
+
+
+
+
+    <div class="form-group">
+      <label for="username">Username</label>
+      <input type="text" id="username" formControlName="userName" [class.invalid]="userName.invalid && userName.touched">
+      @if (userName.touched && userName.errors?.['required']) {
+        <span>Username is required</span>
+      }
+      @if (userName.touched && userName.errors?.['minlength']) {
+        <span>Username must be at least 5 characters</span>
+      }
+    </div>
+
+
+
+    
+    <div class="form-group">
+      <label for="password">Password</label>
+      <input type="password" id="password" formControlName="password" [class.invalid]="password.invalid && password.touched">
+      @if (password.touched && password.errors?.['required']) {
+        <span>Password is required</span>
+      }
+      @if (password.touched && password.errors?.['minlength']) {
+        <span>Password must be at least 8 characters</span>
+      }
+    </div>
+
+    <button type="submit" [disabled]="myForm.invalid" class="btn">Create Account</button>
+  </form>
+</div>

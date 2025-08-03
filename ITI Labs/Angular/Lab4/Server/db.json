@@ -1,0 +1,14 @@
+{
+  "users": [
+    { "id": 1, "name": "Mahmoud Meky", "email": "mahmoud@example.com" },
+    { "id": 2, "name": "Sarah Ali", "email": "sarah.ali@example.com" },
+    { "id": 3, "name": "Omar Elsharkawy", "email": "omar.shark@example.com" },
+    { "id": 4, "name": "Laila Nabil", "email": "laila.nabil@example.com" },
+    { "id": 5, "name": "Ahmed Gamal", "email": "ahmed.gamal@example.com" },
+    { "id": 6, "name": "Nour Hany", "email": "nour.h@example.com" },
+    { "id": 7, "name": "Karim Samir", "email": "karim.s@example.com" },
+    { "id": 8, "name": "Yasmin Adel", "email": "yasmin.adel@example.com" },
+    { "id": 9, "name": "Tarek Saeed", "email": "tarek.s@example.com" },
+    { "id": 10, "name": "Rana Hassan", "email": "rana.h@example.com" }
+  ]
+}

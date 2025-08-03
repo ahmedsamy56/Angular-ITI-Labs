@@ -1,0 +1,7 @@
+<div class="details-page">
+  <img [src]="user.ImgUrl" alt="Profile photo" class="profile-photo">
+  <h1>{{ user.Name }}</h1>
+  <h3>{{ user.JobTitle }}</h3>
+  <p class="bio">{{ user.Bio }}</p>
+  <button (click)="goBack()" class="back-btn">Back</button>
+</div>

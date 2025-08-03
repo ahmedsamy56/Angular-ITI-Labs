@@ -1,0 +1,12 @@
+<div class="card-container">
+  @for (user of AllUsers; track user.id) {
+    <div class="card">
+      <img [src]="user.ImgUrl" alt="Profile photo" class="profile-photo">
+      <h2>{{ user.Name | uppercase }}</h2>
+      <p class="title">{{ user.JobTitle }}</p>
+      <p class="bio">{{ user.Bio }}</p>
+      <button (click)="ShowUserDetails(user.id)" class="details">Details</button>
+      <button (click)="RemoveUser(user.id)" class="remove">Remove</button>
+    </div>
+  }
+</div>

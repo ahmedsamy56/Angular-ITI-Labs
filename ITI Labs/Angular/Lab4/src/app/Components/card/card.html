@@ -1,0 +1,12 @@
+<div class="card-container">
+  @for (user of AllUsers | async; track user.id) {
+    <div class="card">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuNhTZJTtkR6b-ADMhmzPvVwaLuLdz273wvQ&s" alt="Profile photo" class="profile-photo">
+      <h2>{{ user.name | uppercase }}</h2>
+      <p class="title">{{ user.email }}</p>
+      <p class="title">{{ user.id }}</p>
+      <button (click)="ShowUserDetails(user.id)" class="details">Details</button>
+      <button (click)="RemoveUser(user.id)" class="remove">Remove</button>
+    </div>
+  }
+</div>
