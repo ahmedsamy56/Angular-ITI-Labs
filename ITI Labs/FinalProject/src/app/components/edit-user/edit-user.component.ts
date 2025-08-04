@@ -34,7 +34,7 @@ export class EditUserComponent implements OnInit, OnChanges {
   initForm() {
     this.editUserForm = this.fb.group({
       id: [0],
-      name: ['', [Validators.required, Validators.minLength(2), Validators.maxLength(50)]],
+      name: ['', [Validators.required, Validators.minLength(3), Validators.maxLength(50)]],
       email: ['', [Validators.required, Validators.email]]
     });
   }
