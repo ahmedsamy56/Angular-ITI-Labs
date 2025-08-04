@@ -1,0 +1,31 @@
+/* Dashboard component styles */
+.table th {
+  border-top: none;
+  font-weight: 600;
+}
+
+.table td {
+  vertical-align: middle;
+}
+
+.btn-sm {
+  padding: 0.25rem 0.5rem;
+  font-size: 0.875rem;
+}
+
+/* Modal styles for delete confirmation */
+.modal-backdrop {
+  z-index: 1040;
+}
+
+.modal {
+  z-index: 1050;
+}
+
+.modal.show {
+  z-index: 1060;
+}
+
+.modal-backdrop.show {
+  z-index: 1055;
+} 
